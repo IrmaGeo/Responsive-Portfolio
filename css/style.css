@@ -1,0 +1,98 @@
+html {
+  background-color: #fff0f5;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff0f5;
+}
+header {
+  background-color: lightgray;
+}
+
+h3 {
+  border-bottom: 1px groove;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+}
+main {
+  margin-bottom: 20px;
+}
+.card-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#bottom-margin {
+  margin-bottom: 20px;
+}
+section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container {
+  margin-top: 20px;
+  width: 100%;
+  font-style: italic;
+  background-color: #fff0f5;
+}
+.footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #e3f2fd;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  background-color: azure;
+  padding: 5px;
+  margin-left: 20px;
+  font-family: "Satisfy", cursive;
+}
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: black;
+}
+
+/*// Small devices (landscape phones, 576px and up)
+@media (max-width: 640px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  margin: 20px;
+  padding: 10px;
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 980px) {
+  margin: 30px;
+  padding: 20px;
+}*/
