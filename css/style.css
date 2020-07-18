@@ -14,7 +14,6 @@ img {
   height: 200px;
   float: left;
   margin-right: 20px;
-  border-radius: 30%;
 }
 
 .row_flex {
@@ -131,8 +130,4 @@ span {
 }
 .WorkExp {
   border-bottom: black;
-}
-
-h3 {
-  font-size: 12px;
 }
