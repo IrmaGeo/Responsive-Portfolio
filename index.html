@@ -44,13 +44,16 @@
         <a class="navbar-brand" href="#">Irma Modzgvrishvili</a>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">about</a>
+            <a class="nav-link active" href="index.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="resume.html">resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="portfolio.html">portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">cntact</a>
+            <a class="nav-link active" href="contact.html">contact</a>
           </li>
         </ul>
       </nav>
@@ -58,40 +61,52 @@
 
     <!--resposive layout and resposive image-->
     <main class="container">
-      <h1>About Me</h1>
-      <article>
-        <h2>Bio</h2>
-        <p>
+      <!-- <h1>About Me</h1> -->
+      <div class="grid-row">
+        <div class="grid-column item_1">
+          <!-- <article> -->
+          <h2>Bio</h2>
+          <!-- <div class="bck"></div> -->
+        </div>
+        <div class="grid-column item_2">
           <img src="Images/image.jpg" alt="my photo" />
-          Hello! My name is Irma. High-energy, self-developing and motivated
-          Business Analyst with 7+ years experience in banking sector, effective
-          at developing and implementing operational processes and systems.
-          Quickly grasps business priorities to identify optimal personnel and
-          IT solutions.
-        </p>
-        <br />
-        <p>
-          My goal in life is to do what makes you happy, never give up and
-          believe in yourself! Love extrim and everything that connects to
-          extrim! This includes my work and my past times. I am currently
-          studying in Columbia boots camp in New York City and work at the same
-          time.
-        </p>
-      </article>
-      <!--create sticky footer tag-->
-      <footer
-        class="navbar sticky-bottom navbar-light justify-content-end mt-3"
-        style="background-color: #e3f2fd;"
-      >
-        <p class="text-muted">
-          copyright @
-          <a
-            href="http://linkedin.com/in/irma-modzgvrishvili-7697945b"
-            target="_blank"
-            >Linkdn</a
+        </div>
+        <div class="grid-column item_3">
+          <p>
+            Hello! My name is Irma. High-energy, self-developing and motivated
+            Business Analyst with 7+ years experience in banking sector,
+            effective at developing and implementing operational processes and
+            systems. Quickly grasps business priorities to identify optimal
+            personnel and IT solutions.
+          </p>
+
+          <p>
+            My goal in life is to do what makes you happy, never give up and
+            believe in yourself! Love extrim and everything that connects to
+            extrim! This includes my work and my past times. I am currently
+            studying in Columbia boots camp in New York City and work at the
+            same time.
+          </p>
+        </div>
+        <!-- </article> -->
+
+        <!-- create sticky footer tag -->
+        <div class="grid-column item_4">
+          <footer
+            class="navbar sticky-bottom navbar-light justify-content-end mt-3"
+            style="background-color: #e3f2fd;"
           >
-        </p>
-      </footer>
+            <p class="text-muted">
+              copyright @
+              <a
+                href="http://linkedin.com/in/irma-modzgvrishvili-7697945b"
+                target="_blank"
+                >Linkdn</a
+              >
+            </p>
+          </footer>
+        </div>
+      </div>
     </main>
   </body>
 </html>
