@@ -19,6 +19,7 @@ img {
 .row_flex {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 30px;
 }
 .flex-column_1 {
   float: left;
@@ -42,7 +43,8 @@ main {
   margin-top: 20px;
   width: 100%;
   font-style: italic;
-  background-color: #fff0f5;
+
+  /* background-color: #fff0f5; */
 }
 .navbar-brand {
   background-color: azure;
@@ -114,6 +116,11 @@ span {
   margin-bottom: 30px;
   padding: 20px;
   box-sizing: 100px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
 }
 .education {
   /* border-left: solid; */
@@ -130,4 +137,39 @@ span {
 }
 .WorkExp {
   border-bottom: black;
+  font-size: 12px;
+}
+.sidebar {
+  float: right;
+  width: 25%;
+  border-style: double;
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin-top: 60px;
+}
+
+main {
+  float: left;
+  width: 75%;
+}
+h3 {
+  font-size: 12px;
+}
+.years {
+  font-size: x-small;
+  color: black;
+}
+.worktitle {
+  font-size: 14px;
+  font-style: bold;
+}
+form {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.experiance {
+  background-color: light green;
 }
