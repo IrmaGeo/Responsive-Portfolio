@@ -173,3 +173,16 @@ form {
 .experiance {
   background-color: light green;
 }
+
+.Download {
+  float: right;
+  border-style: double;
+}
+
+#download {
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  margin: 0px;
+  padding: 5px;
+}
