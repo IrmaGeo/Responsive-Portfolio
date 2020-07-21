@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-
-    <!--import google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
     <!-- CSS only -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- JS, Popper.js, and jQuery -->
     <script
@@ -34,38 +32,48 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <!--navbar-->
-    <main class="container">
-      <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-          <a class="navbar-brand" href="#">Irma Modzgvrishvili</a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="resume.html">resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" onclick="sidebar()"></i>
+      </label>
+      <h3>Home</h3>
+    </header>
 
-      <!-- contac form inculdes name, email, message. you can send a message -->
+    <div id="sidebar" class="active">
+      <center class="">
+        <img src="images/profile.jpg" alt="profile photo" class="" />
+        <h4 class="">Irma Modzgvrishvili</h4>
+      </center>
 
+      <ul>
+        <li class="">
+          <a class="nav-link active" href="About.html">About me</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="resume.html">resume</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="skils.html">Skills</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- contac form inculdes name, email, message. you can send a message -->
+    <main id="main">
       <form>
-        <!-- <h1>Contact</h1> -->
         <!-- create field for contact name and last name-->
         <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+          <label for="exampleFormControlInput1" id="label">Name</label>
           <input
             type="text"
             class="form-control"
@@ -75,7 +83,7 @@
         </div>
         <!-- create field for email-->
         <div class="form-group">
-          <label for="exampleFormControlInput2">Email address</label>
+          <label for="exampleFormControlInput2" id="label">Email address</label>
           <input
             type="email"
             class="form-control"
@@ -85,7 +93,7 @@
         </div>
         <!-- create field for Message-->
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1" id="label">Message</label>
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
@@ -98,21 +106,6 @@ message</textarea
         <button type="submit" class="btn btn-primary" id="bottom-margin">
           submit
         </button>
-
-        <!--footer-->
-        <footer
-          class="navbar sticky-bottom navbar-light justify-content-end mt-3"
-          style="background-color: #e3f2fd;"
-        >
-          <p class="text-muted">
-            copyright @
-            <a
-              href="http://linkedin.com/in/irma-modzgvrishvili-7697945b"
-              target="_blank"
-              >Linkdn</a
-            >
-          </p>
-        </footer>
       </form>
     </main>
   </body>

@@ -3,17 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <!-- CSS link -->
-
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-
-    <!--import google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -21,7 +12,10 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -38,34 +32,45 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <!--nav bar for Portfolio page-->
-    <main class="container">
-      <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-          <a class="navbar-brand" href="#">Irma Modzgvrishvili</a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="resume.html">resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" onclick="sidebar()"></i>
+      </label>
+      <h3>Home</h3>
+    </header>
 
-      <!--Add portfolio cards!!!-->
+    <div id="sidebar" class="active">
+      <center class="">
+        <img src="images/profile.jpg" alt="profile photo" class="" />
+        <h4 class="">Irma Modzgvrishvili</h4>
+      </center>
 
-      <!-- <h1>Portfolio</h1> -->
+      <ul>
+        <li class="">
+          <a class="nav-link active" href="About.html">About me</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="resume.html">resume</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="skils.html">Skills</a>
+        </li>
+        <li class="">
+          <a class="nav-link active" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!--Add portfolio cards!!!-->
+
+    <main id="main">
       <!-- 1. Qmatic project-->
       <div class="row_flex">
         <div class="flex-column_1">
@@ -143,7 +148,7 @@
 
         <!--create footer-->
       </div>
-      <footer
+      <!-- <footer
         class="navbar sticky-bottom navbar-light justify-content-end mt-3"
         style="background-color: #e3f2fd;"
       >
@@ -155,7 +160,7 @@
             >Linkdn</a
           >
         </p>
-      </footer>
+      </footer> -->
     </main>
   </body>
 </html>
