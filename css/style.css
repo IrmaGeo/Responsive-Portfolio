@@ -175,28 +175,6 @@ span {
   margin-top: 20px;
   margin-right: 20px;
 }
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 640px) {
-  .flex-column_1 .Download .education .university {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-  .flex-column_1 .Download .education .university {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-/* Large devices (desktops, 992px and up) */
-@media screen and (max-width: 980px) {
-  .flex-column_1.Download .education .university {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
 
 form {
   margin-left: 20px;
@@ -230,4 +208,43 @@ p {
 #bottom-margin {
   background-color: #0b8c8c;
   border-color: #0b8c8c;
+}
+
+.fab {
+margin-left: 10px;
+}
+
+footer {
+  left: 0px;
+  top: 768px;
+  width: 100%;
+  background-color: #0b6767;
+  height: 90px;
+  position: fixed;
+  color: white;
+  }
+.skills{
+      text-align: left;
+}
+  /* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 640px) {
+  .flex-column_1 .Download .education .university {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .flex-column_1 .Download .education .university {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 980px) {
+  .flex-column_1.Download .education .university {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

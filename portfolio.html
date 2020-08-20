@@ -1,166 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <label for="check">
-        <i class="fas fa-bars" onclick="sidebar()"></i>
-      </label>
-      <h3>Home</h3>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
 
-    <div id="sidebar" class="active">
-      <center class="">
-        <img src="images/profile.jpg" alt="profile photo" class="" />
-        <h4 class="">Irma Modzgvrishvili</h4>
-      </center>
+<body>
+  <header class="inline">
 
-      <ul>
-        <li class="">
-          <a class="nav-link active" href="About.html">About me</a>
-        </li>
-        <li class="">
-          <a class="nav-link active" href="resume.html">resume</a>
-        </li>
-        <li class="">
-          <a class="nav-link active" href="portfolio.html">portfolio</a>
-        </li>
-        <li class="">
-          <a class="nav-link active" href="skils.html">Skills</a>
-        </li>
-        <li class="">
-          <a class="nav-link active" href="contact.html">contact</a>
-        </li>
-      </ul>
+    <label for="check">
+      <i class="fas fa-bars" onclick="sidebar()"></i>
+      <a href="https://www.facebook.com/imodzgvrishvili"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/irma-modzgvrishvili-7697945b"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com"><i class="fab fa-github"></i></a>
+    </label>
+    <a href="About.html">Home</a>
+    <div class="socialMedia">
+
     </div>
+  </header>
 
-    <!--Add portfolio cards!!!-->
+  <div id="sidebar" class="active">
+    <center class="">
+      <img src="images/profile.jpg" alt="profile photo" class="" />
+      <h4 class="">Irma Modzgvrishvili</h4>
+    </center>
 
-    <main id="main">
-      <!-- 1. Qmatic project-->
-      <div class="row_flex">
-        <div class="flex-column_1">
-          <h2>QMATIC system</h2>
-          <p>
-            <img src="Images/Qmatic.jpg" alt="Image of Qmatic photo" />
-            Implement QMATIC system. reduce customers service time from 40
-            minutes to 20 minutes, delay period from 1 hour to 10 minutes,
-            automated a lot of process, increase capacity of employees.
-          </p>
-        </div>
+    <ul>
+      <li class="" onclick="sidebar()">
+        <a class="nav-link active" href="About.html">About me</a>
+      </li>
+      <li class="" onclick="sidebar()">
+        <a class="nav-link active" href="resume.html">resume</a>
+      </li>
+      <li class="" onclick="sidebar()">
+        <a class="nav-link active" href="portfolio.html">portfolio</a>
+      </li>
+      <li class="" onclick="sidebar()">
+        <a class="nav-link active" href="skils.html">Skills</a>
+      </li>
+      <li class="" onclick="sidebar()">
+        <a class="nav-link active" href="contact.html">contact</a>
+      </li>
+    </ul>
+  </div>
 
-        <!--2. LMS Project-->
-        <div class="flex-column_1">
-          <h2>Loan Managment System</h2>
-          <p>
-            <img src="Images/LMS.jpg" alt="Image of Loan Managment System" />
-            Replacement Loan Management System in TBC Bank. Selection of
-            systems, communication with vendors, gap analysis, prepare data for
-            migration, staff training, supporting and monitoring deployment
-            process.
-          </p>
-        </div>
+  <!--Add portfolio cards!!!-->
 
-        <!-- 3. multy corency project-->
-        <div class="flex-column_1">
-          <h2>Multi-currency Loan</h2>
-          <p>
-            <img
-              src="Images/multi_corency.jpg"
-              alt="Image of multi-currency products photo"
-            />
-            Implement New Loan product. The multi-currency loan that the
-            consumer could use to repay the loan in the currency of his choice
-            without having to change the monthly payment.
-          </p>
-        </div>
-
-        <!--4. merger project-->
-        <div class="flex-column_1">
-          <h2>Company Merger</h2>
-          <p>
-            <img src="Images/merger.jpg" alt="Image of merger photo" />
-            Merger of two Banks: TBC Bank and Bank Republic (business analysts
-            and QA testers team lead, gap analysis, merge of systems, data
-            migration, support branches)
-          </p>
-        </div>
-
-        <!--5. automated process project-->
-
-        <div class="flex-column_1">
-          <h2>Automated Process</h2>
-          <p>
-            <img
-              src="Images/Automated.jpg"
-              alt="Image of automated process project"
-            />
-            Simplified and automated process of get the Cash Cover loan, reduce
-            time from 1,5 hours to 10 minutes.
-          </p>
-        </div>
-        <!--6. Agile Transformation-->
-
-        <div class="flex-column_1">
-          <h2>Agile Transformation</h2>
-          <img src="images/agile.png" alt="agile" />
-
-          <p>
-            A Company with 7 000 employees (TBC BANK), has changed corporatule
-            culture and managment methodolgy. I was team member of agile
-            transformation project working with<span> Mckinsey.</span>
-          </p>
-        </div>
-
-        <!--create footer-->
-      </div>
-      <!-- <footer
-        class="navbar sticky-bottom navbar-light justify-content-end mt-3"
-        style="background-color: #e3f2fd;"
-      >
-        <p class="text-muted">
-          copyright @
-          <a
-            href="http://linkedin.com/in/irma-modzgvrishvili-7697945b"
-            target="_blank"
-            >Linkdn</a
-          >
+  <main id="main">
+    <!-- 1. Qmatic project-->
+    <div class="row_flex">
+      <div class="flex-column_1">
+        <h2>QMATIC system</h2>
+        <p>
+          <img src="Images/Qmatic.jpg" alt="Image of Qmatic photo" />
+          Implement QMATIC system. reduce customers service time from 40
+          minutes to 20 minutes, delay period from 1 hour to 10 minutes,
+          automated a lot of process, increase capacity of employees.
         </p>
-      </footer> -->
-    </main>
-  </body>
+      </div>
+
+      <!--2. LMS Project-->
+      <div class="flex-column_1">
+        <h2>Loan Managment System</h2>
+        <p>
+          <img src="Images/LMS.jpg" alt="Image of Loan Managment System" />
+          Replacement Loan Management System in TBC Bank. Selection of
+          systems, communication with vendors, gap analysis, prepare data for
+          migration, staff training, supporting and monitoring deployment
+          process.
+        </p>
+      </div>
+
+      <!-- 3. multy corency project-->
+      <div class="flex-column_1">
+        <h2>Multi-currency Loan</h2>
+        <p>
+          <img src="Images/multi_corency.jpg" alt="Image of multi-currency products photo" />
+          Implement New Loan product. The multi-currency loan that the
+          consumer could use to repay the loan in the currency of his choice
+          without having to change the monthly payment.
+        </p>
+      </div>
+
+      <!--4. merger project-->
+      <div class="flex-column_1">
+        <h2>Company Merger</h2>
+        <p>
+          <img src="Images/merger.jpg" alt="Image of merger photo" />
+          Merger of two Banks: TBC Bank and Bank Republic (business analysts
+          and QA testers team lead, gap analysis, merge of systems, data
+          migration, support branches)
+        </p>
+      </div>
+
+      <!--5. automated process project-->
+
+      <div class="flex-column_1">
+        <h2>Automated Process</h2>
+        <p>
+          <img src="Images/Automated.jpg" alt="Image of automated process project" />
+          Simplified and automated process of get the Cash Cover loan, reduce
+          time from 1,5 hours to 10 minutes.
+        </p>
+      </div>
+      <!--6. Agile Transformation-->
+
+      <div class="flex-column_1">
+        <h2>Agile Transformation</h2>
+        <img src="images/agile.png" alt="agile" />
+
+        <p>
+          A Company with 7 000 employees (TBC BANK), has changed corporatule
+          culture and managment methodolgy. I was team member of agile
+          transformation project working with<span> Mckinsey.</span>
+        </p>
+      </div>
+      <div class="flex-column_1">
+        <h2>Rona-Rover</h2>
+        <img src="https://raw.githubusercontent.com/IrmaGeo/Rona-Rover/master/assets/logo.png" alt="agile" />
+        <p>
+          API platform designed to help travelers with up-to-date Covid-19 stats
+        </p>
+      </div>
+      <div class="flex-column_1">
+        <h2>Stormy-Dawn</h2>
+        <img src="images/fadedbee.png" alt="agile" />
+        <p>
+          This creates a mutually beneficial arrangement where the student/volunteer can get real world experience and
+          reviews and
+          the NPOs can find help with completing and updating projects.
+        </p>
+      </div>
+
+      <!--create footer-->
+    </div>
+    <footer class="navbar sticky-bottom justify-content-center">
+      @ copyright
+    </footer>
+  </main>
+</body>
+
 </html>

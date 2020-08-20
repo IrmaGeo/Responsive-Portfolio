@@ -24,11 +24,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="inline">
+
         <label for="check">
             <i class="fas fa-bars" onclick="sidebar()"></i>
+            <a href="https://www.facebook.com/imodzgvrishvili"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irma-modzgvrishvili-7697945b"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com"><i class="fab fa-github"></i></a>
         </label>
-        <h3>Home</h3>
+        <a href="About.html">Home</a>
+        <div class="socialMedia">
+
+        </div>
     </header>
 
     <div id="sidebar" class="active">
@@ -38,195 +45,225 @@
         </center>
 
         <ul>
-            <li class="">
+            <li class="" onclick="sidebar()">
                 <a class="nav-link active" href="About.html">About me</a>
             </li>
-            <li class="">
+            <li class="" onclick="sidebar()">
                 <a class="nav-link active" href="resume.html">resume</a>
             </li>
-            <li class="">
+            <li class="" onclick="sidebar()">
                 <a class="nav-link active" href="portfolio.html">portfolio</a>
             </li>
-            <li class="">
+            <li class="" onclick="sidebar()">
                 <a class="nav-link active" href="skils.html">Skills</a>
             </li>
-            <li class="">
+            <li class="" onclick="sidebar()">
                 <a class="nav-link active" href="contact.html">contact</a>
             </li>
         </ul>
     </div>
 
 
-        <main id="main">
-            
-            <div class="container">
-                <div class="Download">
-                <a href="assets/resume.pdf" download="true" target="_blanck" >
+    <main id="main">
+
+        <div class="container">
+            <div class="Download">
+                <a href="assets/resume.pdf" download="true" target="_blanck">
                     <i class="fas fa-file-download"></i>
-download</a>
-                </div>
-              
-                    
-               
-                <div class="education">
+                    download</a>
+            </div>
+
+
+
+            <div class="education">
                 <h2 class="education"><i class="fas fa-university"></i>
-Education</h2>
+                    Education</h2>
+            </div>
+
+
+            <div class="university">
+
+                <ul class="">
+                    <li class=""><strong>Collumbia boots camp: </strong>coding, 2020 New York</li>
+                    <li class=""><strong>Master of Business Administration: </strong>Free University, 2018 Tbilisi</li>
+                    <li class=""><strong>Master of Computer science and Mathematics: </strong>Tbilisi State University,
+                        2006 Tbilisi
+                    </li>
+                    <li class=""><strong>Bachelor of Computer Since And Mathematics: </strong>Tbilisi State University,
+                        2004 Tbilisi
+                    </li>
+                </ul>
+            </div>
+            <!-- work experiance -->
+            <div class="education">
+                <h2 class="education">Work Experience</h2>
+
+            </div>
+
+
+            <div class="experiance">
+
+                <div class="WorkExp">
+                    <h3 class="worktitle">Service Delivery Manager<Span class="years">(06/2017-05/2019)</Span> </h3>
+                    <ul>
+                        <li class="">Recruited new members for business analysis team to support division growth and
+                            create strong and productive department.</li>
+                        <li class="">Coordinated staff resources, including overtime requirements.</li>
+                        <li class="">Responsibility for building partnerships and determine Service level agreement
+                            (SLA) with vendors and business
+                            department, manage team performance, track finances and control quality of service delivery.
+                        </li>
+                        <li class="">Streamlined techniques to support agile methodology implementations.</li>
+                        <li class="">Lead collaborative, dynamic planning process on events such as PI planing,
+                            replenishment for prioritization work that
+                            needs to be done against capacity and capability of team Increase delivery rate 50%.</li>
+                    </ul>
                 </div>
-            
-
-           <div class="university">
-          
-            <ul class="">
-                <li class=""><strong>Collumbia boots camp: </strong>coding, 2020 New York</li>
-                <li class=""><strong>Master of Business Administration: </strong>Free University, 2018 Tbilisi</li>
-                <li class=""><strong>Master of Computer science and Mathematics: </strong>Tbilisi State University, 2006 Tbilisi
-</li>
-                <li class=""><strong>Bachelor of Computer Since And Mathematics: </strong>Tbilisi State University, 2004 Tbilisi
-</li>
-            </ul>
-            </div>
-        <!-- work experiance -->
-        <div class="education">
-        <h2 class="education">Work Experience</h2>
-
-        </div>
-       
-        
-        <div class="experiance">
-            
-            <div class="WorkExp">
-                <h3 class="worktitle">Service Delivery Manager<Span class="years">(06/2017-05/2019)</Span> </h3>
-                <ul>
-                    <li class="">Recruited new members for business analysis team to support division growth and create strong and productive department.</li>
-                    <li class="">Coordinated staff resources, including overtime requirements.</li>
-                    <li class="">Responsibility for building partnerships and determine Service level agreement (SLA) with vendors and business
-                    department, manage team performance, track finances and control quality of service delivery.</li>
-                    <li class="">Streamlined techniques to support agile methodology implementations.</li>
-                    <li class="">Lead collaborative, dynamic planning process on events such as PI planing, replenishment for prioritization work that
-                    needs to be done against capacity and capability of team Increase delivery rate 50%.</li>
-                </ul>  
-            </div>
 
 
-            <div class="WorkExp">
-                <h3 class="worktitle">Senior Business Analyst<span class="years">(2015-07/2017)</span></h3>
-                <ul>
-                   <li class="">Improve systems maintenance.</li>
-                   <li class="">Directed business analysts in solving problems and determine projects plans.</li>
-                   <li class="">Served as main source of support to business analysts, QA testers and technical and business support.</li>
-                   <li class="">Validating technical documents prepared by group members.</li>
-                <li class="">Closely work with developers and System architects team</li>
-                </ul>
-            </div>
+                <div class="WorkExp">
+                    <h3 class="worktitle">Senior Business Analyst<span class="years">(2015-07/2017)</span></h3>
+                    <ul>
+                        <li class="">Improve systems maintenance.</li>
+                        <li class="">Directed business analysts in solving problems and determine projects plans.</li>
+                        <li class="">Served as main source of support to business analysts, QA testers and technical and
+                            business support.</li>
+                        <li class="">Validating technical documents prepared by group members.</li>
+                        <li class="">Closely work with developers and System architects team</li>
+                    </ul>
+                </div>
 
-            <div class="WorkExp">
-                <h3 class="worktitle">Business Analyst<span class="years">(09/2014-11/2015)</span></h3>
-                <ul>
-                    <li class="">Worked effectively with business stakeholders and subject matter experts in order to understand their problems and needs
-                    and create software solutions that elevated customer side experience and significantly improved overall functionality
-                    and performance.</li>
-                    <li class="">Solves business problems, designing technical solutions.</li>
-                    <li class="">Create functional, non functional and integration requirements documents.</li>
-                    <li class="">Managed testing cycles, including test plan creation, development of scripts and co-ordination of user acceptance
-                    testing for stakeholders.</li>
-                    <li class="">Systems deployment and monitoring.</li>
-                </ul>
-            </div> 
-
-
-            <div class="WorkExp">
-                <h3 class="worktitle">ETL Tester<span class="years">(06/2013-01/2014)</span></h3>
-                <ul>
-                    <li class="">Create, design and execute test cases, test plans and test harness Identify the problem and provide solutions for
-                    potential issues Approve requirements and design specifications</li>
-                    <li class="">Data transfers and Test flat file</li>
-                    <li class="">Writing SQL scripts to extract data from various databases and systems and compares against data warehouse.</li>
-                    <li class="">ETL Performance Testing and Tuning</li>
-                    <li class="">Assisted stakeholders during User Acceptance Testing (UAT)</li>
-                </ul>  
-            </div>
+                <div class="WorkExp">
+                    <h3 class="worktitle">Business Analyst<span class="years">(09/2014-11/2015)</span></h3>
+                    <ul>
+                        <li class="">Worked effectively with business stakeholders and subject matter experts in order
+                            to understand their problems and needs
+                            and create software solutions that elevated customer side experience and significantly
+                            improved overall functionality
+                            and performance.</li>
+                        <li class="">Solves business problems, designing technical solutions.</li>
+                        <li class="">Create functional, non functional and integration requirements documents.</li>
+                        <li class="">Managed testing cycles, including test plan creation, development of scripts and
+                            co-ordination of user acceptance
+                            testing for stakeholders.</li>
+                        <li class="">Systems deployment and monitoring.</li>
+                    </ul>
+                </div>
 
 
-            <div class="WorkExp">
-                <h3 class="worktitle">QA Analyst<span class="years">(01/2012-01/2013)</span></h3>
-                <ul>
-                    <li class="">Work as part of team to perform manual/automatic functional regression, integration testing with SoapUI and performance
-                    testing.</li>
-                    <li class="">Create test plans, test scenarios and test cases</li>
-                    <li class="">Identified and tracked defects with JIra and supported developers in resolving problems by completing additional tests.</li>
-                    <li class="">Wrote, edited and updated project manuals and technical documentation used by stakeholders.</li>
-                    
-                </ul>
-            </div>
+                <div class="WorkExp">
+                    <h3 class="worktitle">ETL Tester<span class="years">(06/2013-01/2014)</span></h3>
+                    <ul>
+                        <li class="">Create, design and execute test cases, test plans and test harness Identify the
+                            problem and provide solutions for
+                            potential issues Approve requirements and design specifications</li>
+                        <li class="">Data transfers and Test flat file</li>
+                        <li class="">Writing SQL scripts to extract data from various databases and systems and compares
+                            against data warehouse.</li>
+                        <li class="">ETL Performance Testing and Tuning</li>
+                        <li class="">Assisted stakeholders during User Acceptance Testing (UAT)</li>
+                    </ul>
+                </div>
 
 
-            <div class="WorkExp">
-                <h3 class="worktitle">Business Process Manager<span class="years">(07/2009-01/2011)</span></h3>
-                <ul>
-                    <li class="">Tracked and analyzed reports to determine where improvements in business could be made.</li>
-                    <li class="">Oversaw investigation and resolution of country regulatory as NBG (National Bank of Georgia), legislation herald of
-                    Georgia, Personal Data Protection changes impact claim processes, etc.</li>
-                    <li class="">Create Documentation, update Department Procedures and Policies.</li>
-                    <li class="">Training internal employees who are involved in improved processes.
-                    Conduct Ongoing Analyses</li>
-            
-                </ul>
-            </div>
+                <div class="WorkExp">
+                    <h3 class="worktitle">QA Analyst<span class="years">(01/2012-01/2013)</span></h3>
+                    <ul>
+                        <li class="">Work as part of team to perform manual/automatic functional regression, integration
+                            testing with SoapUI and performance
+                            testing.</li>
+                        <li class="">Create test plans, test scenarios and test cases</li>
+                        <li class="">Identified and tracked defects with JIra and supported developers in resolving
+                            problems by completing additional tests.</li>
+                        <li class="">Wrote, edited and updated project manuals and technical documentation used by
+                            stakeholders.</li>
+
+                    </ul>
+                </div>
+
+
+                <div class="WorkExp">
+                    <h3 class="worktitle">Business Process Manager<span class="years">(07/2009-01/2011)</span></h3>
+                    <ul>
+                        <li class="">Tracked and analyzed reports to determine where improvements in business could be
+                            made.</li>
+                        <li class="">Oversaw investigation and resolution of country regulatory as NBG (National Bank of
+                            Georgia), legislation herald of
+                            Georgia, Personal Data Protection changes impact claim processes, etc.</li>
+                        <li class="">Create Documentation, update Department Procedures and Policies.</li>
+                        <li class="">Training internal employees who are involved in improved processes.
+                            Conduct Ongoing Analyses</li>
+
+                    </ul>
+                </div>
 
 
                 <div class="WorkExp">
                     <h3 class="worktitle">Reporting Manager<span class="years">(12/2006-01/2008)</span></h3>
                     <ul>
-                        <li class="">Formulate techniques for quality data collection to ensure adequacy, accuracy and legitimacy of data Establish rules and
-                        procedures for data sharing with upper management, external stakeholders etc.</li>
+                        <li class="">Formulate techniques for quality data collection to ensure adequacy, accuracy and
+                            legitimacy of data Establish rules and
+                            procedures for data sharing with upper management, external stakeholders etc.</li>
                         <li class="">Support others in daily use of data
-                        systems and ensure adherence to legal and company standards</li>
-        
+                            systems and ensure adherence to legal and company standards</li>
+
                     </ul>
                 </div>
-    
-        </div>
-       
 
-        <div class="recomendation"> 
-             
-            <div class="WorkExp">
-                <h2 id="recomen">Recomendation</h2></br>
-                "Irma has a bright mind and is capable of solving complex problems, which is imporrant for her job. Often she happens to
-                think out of box and finds innovative solutions. Her ability to work under pressure and easily adapt to changing
-                requirements without impact on her performance is indispensable.
-                In terms of personal qualities, I would highlight her strong sense of commitment, high level of loyalty and ability to
-                foster friendly collaborative spirit among her peers. She possesses good interpersonal skills and is able to communicate
-                at different levels effectively, that makes her respected by her colleagues.
-                I can state with confidence that Irma will be an invaluable asset for any company which is seeking performance oriented
-                professionals. And hence she has my highest recommendation."
-            </br></br>
+            </div>
+
+
+            <div class="recomendation">
+
+                <div class="WorkExp">
+                    <h2 id="recomen">Recomendation</h2></br>
+                    <p>
+                        "Irma has a bright mind and is capable of solving complex problems, which is important for her
+                        job.
+                        Often she happens to
+                        think out of box and finds innovative solutions. Her ability to work under pressure and easily
+                        adapt
+                        to changing
+                        requirements without impact on her performance is indispensableI can state with confidence that
+                        Irma will be an invaluable asset for any company which is
+                        seeking
+                        performance oriented</p>
+
+                    </br></br>
                     <strong>
-                    Amiran Sherozia</br>
-                    TBC BANK</br>
-                    CIO
-                    </strong> 
+                        Amiran Sherozia</br>
+                        TBC BANK</br>
+                        CIO
+                    </strong>
+                </div>
+
+                </br>
+                </br>
+                <div class="WorkExp">
+                    "Irma and I worked in TBC Bank, Georgia leading bank, for 13 years. I enjoyed my time working with
+                    irma a lot, and think she has been a truly valuable
+                    asset to our team. She is a talanted, smart and target oriented individual whom one can depend on.
+                    Beyond that, she is an impressive problem solver who is always able to address complex IT issues
+                    with confindence.
+                    Without a doubt, I confidently recommend Irma to join any team. As a dedicated and knowledgeable
+                    employee and an all-around great person.
+                    I know that she will be a beneficial addition to your arganization."
+                    <strong class="">
+                        </br></br></br>
+                        Nino Masurashvili</br>
+                        Deputy General Director, Retail Banking, TBC Bank.</br>
+                        ninoma@tbcbank.com.ge
+                    </strong>
+                </div>
+
+
             </div>
-          
-        </br>
-        </br>
-            <div class="WorkExp">
-                "Irma and I worked in TBC Bank, Georgia leading bank, for 13 years. I enjoyed my time working with irma a lot, and think she has been a truly valuable
-                asset to our team. She is a talanted, smart and target oriented individual whom one can depend on.
-                Beyond that, she is an impressive problem solver who is always able to address complex IT issues with confindence.
-                Without a doubt, I confidently recommend Irma to join any team. As a dedicated and knowledgeable employee and an all-around great person.
-                I know that she will be a beneficial addition to your arganization."
-                <strong class="">
-                    </br></br></br>
-                    Nino Masurashvili</br>
-                    Deputy General Director, Retail Banking, TBC Bank.</br>
-                    ninoma@tbcbank.com.ge
-                                    </strong>
-            </div>
-        
-     
-     </div>
-     </div>
-        </main>
-  </body>
+        </div>
+        <footer class="navbar sticky-bottom justify-content-center">
+            @ copyright
+        </footer>
+    </main>
+
+</body>
+
 </html>
